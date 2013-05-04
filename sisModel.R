@@ -27,7 +27,7 @@
 #
 #
 
-sisModel <- function(b=1e-3,g=1e-2,So=99,Io=1,tempoSim=100,grafico=TRUE){
+sisModel <- function(b=9e-3,g=5e-1,So=100,Io=1,tempoSim=100,grafico=TRUE){
   
   #### Bibliotecas Necessárias ####
   library(deSolve)
