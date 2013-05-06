@@ -31,11 +31,6 @@
 #    times:    vetor com os tempos que retornarão com o resultado da simulação
 #    yini:     vetor que armazena os valores iniciais
 #
-#
-#  Referência
-# Amaku M, Coutinho FAB, Azevedo RS, Burattini MN, Lopez LF, Massad E. Vaccination against rubella:
-#  analysis of the temporal evolution of the age-dependent force of infection and the effects of
-#  different contact patterns. Physical Review E 2003; 67 (051907):1-11.
 
 sirModel <- function(b=5e-3,g=1e-2,vo=0,m=15e-2,t1=20,t2=50,
                      So=100,Io=1,Ro=0,tempoSim=100,grafico=TRUE){
