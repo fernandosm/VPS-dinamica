@@ -5,7 +5,7 @@
 # 
 #  Record of revisions:
 #      Date        Programmer          Description of change
-#    13/04/02     M.S. Fernando     Documentação e criação do script
+#    13/05/02     M.S. Fernando     Documentação e criação do script
 # 
 #  inputs:
 #    b:        taxa de contatos potencialmente infectantes
