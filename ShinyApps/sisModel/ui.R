@@ -37,8 +37,8 @@ shinyUI(pageWithSidebar(
   
   # Sidebar with a slider input for number of observations
   sidebarPanel(
-    numericInput("b", "Taxa de contatos potencialmente infectantes:", 9e-3),
-    numericInput("g", "Taxa de retorno de indivíduos infectados ao compartimento de suscetíveis:", 5e-1),
+    numericInput("b", "Taxa de contatos potencialmente infectantes:", 9e-3,step=1e-3),
+    numericInput("g", "Taxa de retorno de indivíduos infectados ao compartimento de suscetíveis:", 5e-1,step=1e-1),
     numericInput("tempoSim", "Tempo de simulação:",100),
     sliderInput("So", 
                 "Número inicial de indivíduos suscetíveis:", 
