@@ -19,7 +19,7 @@ shinyUI(pageWithSidebar(
   sidebarPanel(
     numericInput("b", "Taxa de contatos potencialmente infectantes:", 5e-3,step=1e-3),
     numericInput("g", "Taxa de recuperação (=inverso do período infeccioso):",1e-2,step=1e-2),
-    numericInput("m","Taxa de natalidade (=taxa de mortalidade)",15e-2,step=1e-3),
+    numericInput("m","Taxa de natalidade (=taxa de mortalidade)",15e-2,step=1e-2),
     numericInput("vo","Taxa relacionada à proporção de cobertura vacinal", 0,step=1e-2),
     numericInput("t1", "Início da campanha de vacinação",25),
     numericInput("t2","Fim da campanha de vacianção",50),
