@@ -28,10 +28,6 @@
 #    yini:     vetor que armazena os valores iniciais
 #
 #
-#  Referência
-# Amaku M, Coutinho FAB, Azevedo RS, Burattini MN, Lopez LF, Massad E. Vaccination against rubella:
-#  analysis of the temporal evolution of the age-dependent force of infection and the effects of
-#  different contact patterns. Physical Review E 2003; 67 (051907):1-11.
 
 sliModel <- function(a=1,b=77.0,m=0.5,K=2.0,alfa=73,sigma=13,
                      So=2.5,Lo=0.1,Io=0.1,tempoSim=1,grafico=TRUE){
