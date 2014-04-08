@@ -32,7 +32,7 @@ sisModel <- function(b=9e-3,g=5e-1,So=100,Io=1,tempoSim=100,grafico=TRUE){
   #### Bibliotecas Necessárias ####
   library(deSolve)
   library(ggplot2)
-  library(reshape)
+  library(reshape2)
   
   #### modelo Suscetível-Infectado-Suscetível ####
   SISmodel <- function(Time, State, Pars) {

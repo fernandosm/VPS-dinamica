@@ -38,7 +38,7 @@ sirModel <- function(b=5e-3,g=1e-2,vo=0,m=15e-2,t1=20,t2=50,
   #### Bibliotecas Necessárias ####
   library(deSolve)
   library(ggplot2)
-  library(reshape)
+  library(reshape2)
   
   #### modelo Suscetível-Infectado-Suscetível ####
   SIRmodel <- function(Time, State, Pars) {

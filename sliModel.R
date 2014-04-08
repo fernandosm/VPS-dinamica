@@ -35,7 +35,7 @@ sliModel <- function(a=1,b=77.0,m=0.5,K=2.0,alfa=73,sigma=13,
   #### Bibliotecas Necessárias ####
   library(deSolve)
   library(ggplot2)
-  library(reshape)
+  library(reshape2)
   
   #### modelo Suscetível-Infectado-Suscetível ####
   SLImodel <- function(Time, State, Pars) {
